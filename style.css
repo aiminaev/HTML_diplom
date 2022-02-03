@@ -1,0 +1,312 @@
+@font-face {
+    font-family: "Open Sans";
+    src: url("https://netology-code.github.io/html-2-diploma/sources/fonts/OpenSans-Regular.woff");
+
+}
+
+@font-face {
+    font-family: "Open Sans";
+    src: url("https://netology-code.github.io/html-2-diploma/sources/fonts/OpenSans-Bold.woff");
+    font-weight: bold;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    font-family: "Open Sans";
+    position: relative;
+
+}
+
+.maket {
+    background-image: url("http://localhost:63342/Project/NOEMI_Modern_ru.jpeg?_ijt=3motes33qf9i2p60tm4mj43v4k");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1660px;
+    height: 3207px;
+    opacity: 0.3;
+}
+
+.img {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.header-outer {
+    height: 450px;
+    background-image: url("https://netology-code.github.io/html-2-diploma/sources/images/banner-bg.jpg");
+
+    padding-top: 28px;
+    position: relative;
+}
+
+.header-outer::before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: black;
+    opacity: 0.6;
+    z-index: 1;
+}
+
+.header-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 250px;
+
+}
+
+.header-inner, h1 {
+    position: relative;
+    z-index: 2;
+}
+
+.logo {
+    background-image: url("https://netology-code.github.io/html-2-diploma/sources/images/noemi-logo.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 180px;
+    height: 40px;
+}
+
+.logo:hover {
+    cursor: pointer;
+}
+
+.menu {
+    margin: 0;
+}
+
+ul.menu > li {
+    display: inline;
+    margin-left: 36px;
+}
+
+ul.menu a {
+
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    text-decoration: underline;
+}
+
+h1 {
+    margin-top: 125px;
+    margin-bottom: 0;
+    text-align: center;
+    font-weight: bold;
+    font-size: 45px;
+    color: white;
+    text-transform: uppercase;
+    padding: 0 22.89%;
+}
+
+.container {
+    display: flex;
+    margin-top: 58px;
+    padding: 0 245px;
+    justify-content: center;
+}
+
+.bg-top10 {
+    background-image: url("https://netology-code.github.io/html-2-diploma/sources/images/last-post1.jpg");
+}
+
+.bg-yoga {
+    background-image: url("https://netology-code.github.io/html-2-diploma/sources/images/last-post2.jpg");
+}
+
+.bg-music {
+    background-image: url("https://netology-code.github.io/html-2-diploma/sources/images/last-post3.jpg");
+}
+
+.bg-food {
+    background-image: url("https://netology-code.github.io/html-2-diploma/sources/images/last-post4.jpg");
+}
+
+.bg-interor {
+    background-image: url("https://netology-code.github.io/html-2-diploma/sources/images/last-post5.jpg");
+}
+
+.bg-mountain {
+    background-image: url("https://netology-code.github.io/html-2-diploma/sources/images/last-post6.jpg");
+}
+
+section .img {
+    flex: 1;
+    max-width: 381px;
+    height: 294px;
+}
+
+.main-news {
+    max-width: 900px;
+}
+
+.main-news section {
+    display: flex;
+}
+
+.main-news section div:last-child {
+    margin-left: 30px;
+    flex: 1;
+}
+
+.main-news section:not(:first-child) {
+    margin-top: 60px;
+}
+
+.main-news a {
+    text-decoration: none;
+    color: inherit;
+    text-transform: uppercase;
+}
+
+.main-news p a {
+    font-size: 14px;
+    color: #b59f5b;
+    font-weight: 700;
+    margin-right: 20px;
+}
+
+.main-news data {
+    font-size: 12px;
+    color: #888888;
+    font-weight: 400;
+}
+
+.main-news span {
+    font-size: 12px;
+    color: #000000;
+    font-weight: 700;
+    margin-left: 15px;
+}
+
+.main-news p {
+    margin: 0;
+    vertical-align: top;
+}
+
+.main-news .news-block {
+    font-size: 15px;
+    line-height: 22px;
+    color: #0f0d0e;
+    font-weight: 400;
+    margin-top: 44px;
+    margin-right: 120px;
+}
+
+.main-news .second-news-block {
+    margin-top: 8px;
+}
+
+.main-news h2 {
+    margin-top: 7px;
+    margin-bottom: 0;
+    font-size: 20px;
+    line-height: 24px;
+    color: #0f0d0e;
+    font-weight: 700;
+    margin-right: 160px;
+}
+
+p.data-author {
+    margin-top: 23px;
+}
+
+.bg-top10-mini {
+    background-image: url("https://netology-code.github.io/html-2-diploma/sources/images/2.jpg");
+}
+
+.bg-yoga-mini {
+    background-image: url("https://netology-code.github.io/html-2-diploma/sources/images/151.jpg");
+}
+
+.bg-balcon {
+    background-image: url("https://netology-code.github.io/html-2-diploma/sources/images/45.jpg");
+}
+
+.bg-food-mini {
+    background-image: url("https://netology-code.github.io/html-2-diploma/sources/images/501.jpg");
+}
+
+.bg-hair {
+    background-image: url("https://netology-code.github.io/html-2-diploma/sources/images/7.jpg");
+}
+
+.mini-news section div:last-child {
+    flex: 1;
+    margin-left: 18px;
+    margin-top: 15px;
+}
+
+.img-mini {
+    flex: 1;
+    height: 70px;
+    max-width: 70px;
+    margin-top: 22px;
+}
+
+.mini-news section {
+    display: flex;
+}
+
+.mini-news data {
+    font-size: 12px;
+    color: #000000;
+    font-weight: 400;
+    opacity: 0.54;
+
+}
+
+h3 {
+    font-size: 14px;
+    color: #0f0d0e;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0;
+    position: relative;
+    margin-bottom: 18px;
+}
+
+h3:after {
+    content: "";
+    display: block;
+    width: 66px;
+    height: 3px;
+    background-color: #b59f5b;
+    position: absolute;
+    top: 28px;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+
+h4 {
+    font-size: 14px;
+    color: #000000;
+    font-weight: 700;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.mini-news section p {
+    margin: 0;
+}
